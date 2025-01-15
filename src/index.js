@@ -48,8 +48,8 @@ class CubeScene {
         const textMesh = createCenteredText({
             text,
             font,
-            size: 0.5,
-            height: 0.12,
+            size: 0.55,
+            height: 0.08,
             color: 0xffffff
         });
 
