@@ -1,0 +1,21 @@
+{
+    "name": "threejs_demo",
+    "version": "1.0.0",
+    "description": "A demo project using Three.js and Webpack",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack serve --open",
+        "build": "webpack --mode production"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^5.64.4",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.7.1",
+        "html-webpack-plugin": "^5.5.0"
+    },
+    "dependencies": {
+        "three": "^0.134.0"
+    }
+}
