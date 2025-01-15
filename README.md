@@ -36,6 +36,30 @@
    ```
 2. The output will be in the `dist` directory. You can serve it using any static file server.
 
+## CI/CD Pipeline
+
+This project uses GitHub Actions for Continuous Integration and Continuous Deployment (CI/CD).
+
+### CI
+
+On every push and pull request to the `main` branch, the following steps are performed:
+- Checkout the code
+- Set up Node.js
+- Install dependencies
+- Run build
+- Run tests
+
+### Deployment
+
+On every push to the `main` branch, after the CI steps are successful, the project is deployed to GitHub Pages. The deployment steps include:
+- Checkout the code
+- Set up Node.js
+- Install dependencies
+- Build the project
+- Deploy to GitHub Pages
+
+The deployment is handled by the [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) action.
+
 ### License
 
 This project is licensed under the MIT License.

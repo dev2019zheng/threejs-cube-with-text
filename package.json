@@ -1,8 +1,9 @@
 {
-    "name": "threejs_demo",
+    "name": "threejs-cube-with-text",
     "version": "1.0.0",
     "description": "A demo project using Three.js and Webpack",
     "main": "index.js",
+    "homepage": "https://dev2019zheng.github.io/threejs-cube-with-text",
     "scripts": {
         "start": "webpack serve --open",
         "build": "webpack --mode production"
@@ -10,10 +11,11 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "gh-pages": "^6.3.0",
+        "html-webpack-plugin": "^5.5.0",
         "webpack": "^5.64.4",
         "webpack-cli": "^4.9.1",
-        "webpack-dev-server": "^4.7.1",
-        "html-webpack-plugin": "^5.5.0"
+        "webpack-dev-server": "^4.7.1"
     },
     "dependencies": {
         "three": "^0.134.0"
